@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricmation</title>
+    <link rel="stylesheet" href="guide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+        integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="logo.ico" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    <!-- Material Symbol -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Symbols+Outlined" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:600,400,200' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <div class="left">
+                <a href="/"><img src="logo1.jpg" alt=""></a>
+                <span>Cricmation</span>
+            </div>
+            <div class="right">
+                <div class="cont">
+                    <a href="/index.html" id="b1"><button class="btn">Home</button></a>
+                    <a href="/contact.html" id="b2"><button class="btn">Contact</button></a>
+                    <a href="/info.html" id="b3"><button class="btn">Information</button></a>
+                    <a href="" id="b4"><button class="btn">Guide</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="guidebox">
+        <span>To make the site more interesting, Learn about the various Web Units so that you know which when to use in a particular condition.</span>
+    </div>
+    <p class='title'>Web Units Guide</p>
+    <p>be sure to resize the browser and see how certain elements change shapes. All of the sizes presented can be used
+        for other properties such as paddings, margins etc... But be careful or you will end up with some unexpected
+        results.</p>
+    <div class='separator'></div>
+    <div class='row'>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='percentage'>
+                <span>%</span>
+            </div>
+            <div class='text'>% units take a percentage value off their parent element</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='inch'>
+                <span>Inch</span>
+            </div>
+            <div class='text'>inches are fixed units. 1inch = 2.54cm</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='cm'>
+                <span>cm</span>
+            </div>
+            <div class='text'>cm are also fixed units, 1cm = 10mm</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='mm'>
+                <span>mm</span>
+            </div>
+            <div class='text'>you guessed it, milimeters are fixed as well.</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='em'>
+                <span>em</span>
+            </div>
+            <div class='text'>em units are really interesting. They are related to the font size of the parent element.
+                My Box div has a font size property of 30px, so 1em = 30px.</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-2'>
+            <div class='box' id='rem'>
+                <span>rem</span>
+            </div>
+            <div class='text'>rem units are similar to em units, except they are relative to the document root font
+                size.</div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-xs-12 col-sm-6 col-md-3'>
+            <div class='box' id='ex'>
+                <span>ex</span>
+            </div>
+            <div class='text'>1 ex is the x-height of a font (x-height is usually about half the font-size)</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-3'>
+            <div class='box' id='pt'>
+                <span>pt</span>
+            </div>
+            <div class='text'>1pt(point) = 1/72 inch</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-3'>
+            <div class='box' id='pc'>
+                <span>pc</span>
+            </div>
+            <div class='text'>1pc/pica = 12pt</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-3'>
+            <div class='box' id='px'>
+                <span>px</span>
+            </div>
+            <div class='text'>We all know pixels right?</div>
+        </div>
+    </div>
+    <div class='row' id='final'>
+        <div class='title'>Now this is really cool!</div>
+        <p>vw and vh units are viewport based and will actually scale when you rezise the window. See it for yourself
+            :)!</p>
+        <div class='col-xs-12 col-sm-6 col-md-26'>
+            <div class='box' id='vw'>
+                <span>vw</span>
+            </div>
+            <div class='text'>1vw = 1% width of the viewport. This will actually scale when we resize the window. Cool,
+                huh?</div>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-6'>
+            <div class='box' id='vh'>
+                <span>vh</span>
+            </div>
+            <div class='text'>1vh = The same as vw, but it takes 1% of the height of the viewport.</div>
+        </div>
+    </div>
+    <p class='thanks'>If you liked it, please hit the like button so more people will get to see this. Thanks!</p>
+
+</body>
+
+</html>

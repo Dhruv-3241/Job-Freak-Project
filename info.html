@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricmation</title>
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+        integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="logo.ico" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    <!-- Material Symbol -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <div class="left">
+                <a href="/"><img src="logo1.jpg" alt=""></a>
+                <span>Cricmation</span>
+            </div>
+            <div class="right">
+                <div class="cont">
+                    <a href="/index.html" id="b1"><button class="btn">Home</button></a>
+                    <a href="/contact.html" id="b2"><button class="btn">Contact</button></a>
+                    <a href="" id="b3"><button class="btn">Information</button></a>
+                    <a href="guide.html" id="b4"><button class="btn">Guide</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text1">
+        <span> Before Knowing any further information, you need to register on our website.</span>
+    </div>
+    <div class="registration">
+        <header>
+            <h1 id="title">Registration</h1>
+            <p id="description">Fill out form and click submit!</p>
+        </header>
+        <form action="" id="survey-form">
+            <label id="name-label" class="top-label">Name: </label><input id="name" class="top-input" type="text"
+                placeholder="Enter your name" required></input>
+
+            <label id="email-label" class="top-label">Email: </label><input id="email" class="top-input" type="email"
+                placeholder="Enter your email" required></input>
+
+              <label id="phone-label" class="top-label">Phone: </label><input id="email" class="top-input" type="email"
+                placeholder="Enter your phone number (optional)" required></input>
+  
+            <label id="number-label" class="top-label">Birth Year: </label><input id="number" class="top-input"
+                type="number" placeholder="Enter your birth year" min="1930" max="2005"></input>
+            <div id="dropdown-div">
+                <label id="drop-label" for="dropdown">Zodiac Sign: </label>
+                <select id="dropdown" class="top-input">
+                    <option value="">(choose one)</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                </select>
+            </div>
+            <label>Is there anything else you'd like to tell us about yourself?</label>
+            <textarea name="tell-us" cols="10" rows="8"></textarea>
+
+            <fieldset id="newsletter">
+                <p>Would you like to receive news and updates?</p>
+                <label>Yes <input type="radio" name="n-and-u" value="yes"></label>
+                <label>No <input type="radio" name="n-and-u" value="no"></label>
+            </fieldset>
+
+            <fieldset id="contact">
+                <p>If yes, how would you like to be notified?</p>
+                <label><input type="checkbox" name="contact-method" value="text">Text</label>
+                <label><input type="checkbox" name="contact-method" value="email">Email</label>
+            </fieldset>
+
+            <fieldset id="terms">
+                <p>Do you agree to the <a href="">Terms & Conditions?</a></p>
+                <label>Yes <input type="radio" name="t-and-c" value="yes"></label>
+                <label>No <input type="radio" name="t-and-c" value="no"></label>
+            </fieldset>
+            <button id="submit" class="button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
